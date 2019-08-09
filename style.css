@@ -1,0 +1,48 @@
+body{
+    background:url(img.webp);
+    font-size: 1.2em;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    min-height: 50vh;
+}
+
+h1{
+    background:violet;
+    border-radius: 10px;
+}
+
+#songlist{
+    background:violet;
+    border-radius: 10px;
+    text-align: left;
+}
+
+li{
+    padding: 40px;
+}
+
+li:hover, svg:hover {
+    cursor: pointer;
+}
+
+#controls{
+    border: 2px lightgray solid;
+    border-radius: 10px;
+    background:violet;
+    padding: 1.5em;
+}
+
+svg{
+    color: lightslategray;
+}
+
+#msrc{
+    background:violet;
+}
+
+progress{
+    width: 80%;
+    margin: 10px;
+}
